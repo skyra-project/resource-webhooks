@@ -18,7 +18,7 @@ Want to know even more cool information about me? My creator Kyra has been writi
 <:pointer:832699900088811550> <#780786725193908225> People that are sponsored by Skyra Project, check them out!
 _ _
 **GENERAL**
-<:pointer:832699900088811550> <#254360814063058944> The off-topic channel for anyone to chit chat! ❤️
+<:pointer:832699900088811550> <#254360814063058944> The off-topic channel for anyone to chit chat <a:SkyraHappy:735068843407573043>!
 <:pointer:832699900088811550> <#750774549532115034> For anything which only makes sense in the context of the voice channels. Sharing images, or typing when your mic is off, etc.
 _ _
 **FEEDBACK AND SUPPORT**
