@@ -5,7 +5,7 @@ Welcome to **Skyra Lounge**!
 _ _
 I'm an AIO Discord Bot focused on moderation, social, and music that was born out of curiosity. My name comes from a joke a friend of my creator made by joining "Kyra" with "SkyNET", resulting in "SkyraNET". The joke kinda stuck around and became my name. An alternative name was "Shiny", which became the name of the currency instead.
 _ _
-Additionally, I has a whole lore resolving around me that my creator Kyra has been working on since he was two and a half years old. It is being currently written down for others to read, suggest, and even, contribute. If you want to learn some of it use `s!aifact`!
+Want to know even more cool information about me? My creator Kyra has been writing my lore since he was only two and a half years old! Big parts are currently being written down for others to read, suggest and contribute to. If you want to learn some of it use `s!aifact`.
 
 
 %PNG_ROOMS%
@@ -65,7 +65,7 @@ _ _
 <:shiny:612364146792726539> <@&780757160371683329> The role you get by gaining 50000 points.
 <:shiny:612364146792726539> <@&780757149395451914> The role you get by gaining 100000 points.
 _ _
-<:shiny:612364146792726539> <@&512450043345764364> One of my sisters, Alestra. She is a bot made for [<:canvasconstructor:451438332375728128> __Canvas Constructor__](https://canvasconstructor.js.org).
+<:shiny:612364146792726539> <@&512450043345764364> One of my sisters, Alestra. She is a bot made for <:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org).
 <:shiny:612364146792726539> <@&444086611001606154> One of my sisters, Evlyn. She monitors me and my other sisters for downtime, but she's feeling a bit down herself as of late.
 <:shiny:612364146792726539> <@&338263528966455298> One of my sisters, Aelia. The best DJ in the galaxy, made especially for <@&303680002245918724>.
 
@@ -111,8 +111,8 @@ _ _
 _ _
 **Awesome projects used by Skyra**:
 _ _
-[<:canvasconstructor:451438332375728128> __Canvas Constructor__](https://canvasconstructor.js.org) - *bringing you more memes than your heart could desire*
-[<:gqlp:706423792561553428> __GraphQL Pokémon__](https://graphqlpokemon.favware.tech) - *the Pokémon data source that I use*
+<:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org) - *bringing you more memes than your heart could desire*
+<:gqlp:706423792561553428> [__GraphQL Pokémon__](https://graphqlpokemon.favware.tech) - *the Pokémon data source that I use*
 
 
 ⬆️ [Jump to the top](%JUMP_TO_TOP%)
