@@ -56,14 +56,14 @@ _ _
 
 _ _
 <:pointer:832699900088811550> <@&277484297013952512> The initial role in our role levelling setup.
-<:pointer:832699900088811550> <@&780757198007173171> The role you get by gaining 2500 points
-<:pointer:832699900088811550> <@&780757172061077535> The role you get by gaining 5000 points.
-<:pointer:832699900088811550> <@&780757170022907974> The role you get by gaining 7500 points.
-<:pointer:832699900088811550> <@&780757167795470346> The role you get by gaining 10000 points.
-<:pointer:832699900088811550> <@&780757165844856852> The role you get by gaining 15000 points.
-<:pointer:832699900088811550> <@&780757163197988874> The role you get by gaining 25000 points.
-<:pointer:832699900088811550> <@&780757160371683329> The role you get by gaining 50000 points.
-<:pointer:832699900088811550> <@&780757149395451914> The role you get by gaining 100000 points.
+<:pointer:832699900088811550> <@&780757198007173171> The role you get by gaining **2 500** points
+<:pointer:832699900088811550> <@&780757172061077535> The role you get by gaining **5 000** points.
+<:pointer:832699900088811550> <@&780757170022907974> The role you get by gaining **7 500** points.
+<:pointer:832699900088811550> <@&780757167795470346> The role you get by gaining **10 000** points.
+<:pointer:832699900088811550> <@&780757165844856852> The role you get by gaining **15 000** points.
+<:pointer:832699900088811550> <@&780757163197988874> The role you get by gaining **25 000** points.
+<:pointer:832699900088811550> <@&780757160371683329> The role you get by gaining **50 000** points.
+<:pointer:832699900088811550> <@&780757149395451914> The role you get by gaining **100 000** points.
 _ _
 **My Sisters:**
 <:pointer:832699900088811550> <@&512450043345764364> is a bot made for <:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org).
