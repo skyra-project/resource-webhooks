@@ -41,32 +41,32 @@ _ _
 <:shiny:612364146792726539> <@&659489843562151956> Highly-trusted teammates who help maintaining me.
 <:shiny:612364146792726539> <@&510388127748325377> People who actively develop to my code!
 <:shiny:612364146792726539> <@&635913377474019328> People who contribute to my code!
-<:shiny:612364146792726539> <@​&632913651099107348> People who have contributed to my code in the past and are honoured forever.
-<:shiny:612364146792726539> <@​&416548459655725056> Server staff and official peacekeepers.
+<:shiny:612364146792726539> <@&632913651099107348> People who have contributed to my code in the past and are honoured forever.
+<:shiny:612364146792726539> <@&416548459655725056> Server staff and official peacekeepers.
 _ _
 <:shiny:612364146792726539> <@&409657867621367831> Our lovely partners, check out their servers!
 <:shiny:612364146792726539> <@&303680002245918724> Our donors! Skyra Project lives thanks to them! ❤️
 <:shiny:612364146792726539> <@&352412797176643585> Get notified when we make <#737142071319855105> by using `s!subscribe`!
 <:shiny:612364146792726539> <@&822478155431936000> The role assigned to people when it is their birthday. Set your birthday with `s!birthday` in <#737452979162054717>.
 <:shiny:612364146792726539> <@&674072108216746056> The role assigned to people who use their Discord Nitro to boost this server, thank you :heart:.
-<:shiny:612364146792726539> <@​&797039015014432769> People who help translate me to other language. Claim this role with `s!roles translators`.
-<:shiny:612364146792726539> <@​&563629993574268928> People who can help you with questions with using me in your server(s).
-<:shiny:612364146792726539> <@​&630236322140782604> People who have helped squash icky bugs in my code.
+<:shiny:612364146792726539> <@&797039015014432769> People who help translate me to other language. Claim this role with `s!roles translators`.
+<:shiny:612364146792726539> <@&563629993574268928> People who can help you with questions with using me in your server(s).
+<:shiny:612364146792726539> <@&630236322140782604> People who have helped squash icky bugs in my code.
 
 
-<:shiny:612364146792726539> <@​&277484297013952512> The initial role in our role levelling setup.
-<:shiny:612364146792726539> <@​&780757198007173171> The role you get by gaining 2500 points
-<:shiny:612364146792726539> <@​&780757172061077535> The role you get by gaining 5000 points.
-<:shiny:612364146792726539> <@​&780757170022907974> The role you get by gaining 7500 points.
-<:shiny:612364146792726539> <@​&780757167795470346> The role you get by gaining 10000 points.
-<:shiny:612364146792726539> <@​&780757165844856852> The role you get by gaining 15000 points.
-<:shiny:612364146792726539> <@​&780757163197988874> The role you get by gaining 25000 points.
-<:shiny:612364146792726539> <@​&780757160371683329> The role you get by gaining 50000 points.
-<:shiny:612364146792726539> <@​&780757149395451914> The role you get by gaining 100000 points.
+<:shiny:612364146792726539> <@&277484297013952512> The initial role in our role levelling setup.
+<:shiny:612364146792726539> <@&780757198007173171> The role you get by gaining 2500 points
+<:shiny:612364146792726539> <@&780757172061077535> The role you get by gaining 5000 points.
+<:shiny:612364146792726539> <@&780757170022907974> The role you get by gaining 7500 points.
+<:shiny:612364146792726539> <@&780757167795470346> The role you get by gaining 10000 points.
+<:shiny:612364146792726539> <@&780757165844856852> The role you get by gaining 15000 points.
+<:shiny:612364146792726539> <@&780757163197988874> The role you get by gaining 25000 points.
+<:shiny:612364146792726539> <@&780757160371683329> The role you get by gaining 50000 points.
+<:shiny:612364146792726539> <@&780757149395451914> The role you get by gaining 100000 points.
 _ _
-<:shiny:612364146792726539> <@​&512450043345764364> One of my sisters, Alestra. She is a bot made for [<:canvasconstructor:451438332375728128> __Canvas Constructor__](https://canvasconstructor.js.org).
-<:shiny:612364146792726539> <@​&444086611001606154> One of my sisters, Evlyn. She monitors me and my other sisters for downtime, but she's feeling a bit down herself as of late.
-<:shiny:612364146792726539> <@​&338263528966455298> One of my sisters, Aelia. The best DJ in the galaxy, made especially for <@​&303680002245918724>.
+<:shiny:612364146792726539> <@&512450043345764364> One of my sisters, Alestra. She is a bot made for [<:canvasconstructor:451438332375728128> __Canvas Constructor__](https://canvasconstructor.js.org).
+<:shiny:612364146792726539> <@&444086611001606154> One of my sisters, Evlyn. She monitors me and my other sisters for downtime, but she's feeling a bit down herself as of late.
+<:shiny:612364146792726539> <@&338263528966455298> One of my sisters, Aelia. The best DJ in the galaxy, made especially for <@&303680002245918724>.
 
 
 %PNG_RULES%
