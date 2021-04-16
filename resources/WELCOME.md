@@ -11,24 +11,24 @@ Want to know even more cool information about me? My creator Kyra has been writi
 %PNG_ROOMS%
 
 
-**INFORMATION**
+**❯ INFORMATION**
 <:pointer:832699900088811550> <#409663610780909569> This channel!
 <:pointer:832699900088811550> <#283965220446273547> Announcements are posted here, you can follow it or use `s!subscribe`!
 <:pointer:832699900088811550> <#381384854127902721> Our lovely partners that help us increase exposure, check them out!
 <:pointer:832699900088811550> <#780786725193908225> People that are sponsored by Skyra Project, check them out!
 _ _
-**GENERAL**
+**❯ GENERAL**
 <:pointer:832699900088811550> <#254360814063058944> The off-topic channel for anyone to chit chat! ❤️
 <:pointer:832699900088811550> <#750774549532115034> For anything which only makes sense in the context of the voice channels. Sharing images, or typing when your mic is off, etc.
 _ _
-**FEEDBACK AND SUPPORT**
+**❯ FEEDBACK AND SUPPORT**
 <:pointer:832699900088811550> <#801237563394097162> Want to help translating my source code, or get support with translation? Ask here!
 <:pointer:832699900088811550> <#382531782387695616> Need help? No worries, ask us here!
 <:pointer:832699900088811550> <#257561807500214273> Everyone can make suggestions to my improvement using the `s!suggest` command. View the current suggestions here.
 <:pointer:832699900088811550> <#262740083977879552> Got any feedback that you want to discuss, or do you want to discuss or ask questions about suggestions in <#257561807500214273>? This is the channel to be!
 <:pointer:832699900088811550> <#382531836213198848> How am I performing? Am I keeping up to your expectations? Rate me and my developers here!
 _ _
-**COMMANDS AND TESTING**
+**❯ COMMANDS AND TESTING**
 <:pointer:832699900088811550> <#401142717758963724> This is the best channel to use my commands in!
 <:pointer:832699900088811550> <#358903435673862144> Essentially "Pins 2.0", leave a ⭐ on somebody's messages and it'll show up there!
 
@@ -65,9 +65,7 @@ _ _
 <:pointer:832699900088811550> <@&780757160371683329> The role you get by gaining 50000 points.
 <:pointer:832699900088811550> <@&780757149395451914> The role you get by gaining 100000 points.
 _ _
-<:pointer:832699900088811550> <@&512450043345764364> One of my sisters, Alestra. She is a bot made for <:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org).
-<:pointer:832699900088811550> <@&444086611001606154> One of my sisters, Evlyn. She monitors me and my other sisters for downtime, but she's feeling a bit down herself as of late.
-<:pointer:832699900088811550> <@&338263528966455298> One of my sisters, Aelia. The best DJ in the galaxy, made especially for <@&303680002245918724>.
+<:pointer:832699900088811550> <@&512450043345764364>, <@&338263528966455298>, and <@&444086611001606154> are my sisters. <@419828209966776330> is a bot made for <:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org). <@338249781594030090> is the best DJ in the galaxy, made especially for <@&303680002245918724>. And lastly <@444081201297227776> monitors me and my other sisters for downtime, but she's feeling a bit down herself as of late.
 
 
 %PNG_RULES%
