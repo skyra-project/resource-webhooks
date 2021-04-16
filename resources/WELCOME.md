@@ -54,6 +54,7 @@ _ _
 <:shiny:612364146792726539> <@&630236322140782604> People who have helped squash icky bugs in my code.
 
 
+_ _
 <:shiny:612364146792726539> <@&277484297013952512> The initial role in our role levelling setup.
 <:shiny:612364146792726539> <@&780757198007173171> The role you get by gaining 2500 points
 <:shiny:612364146792726539> <@&780757172061077535> The role you get by gaining 5000 points.
