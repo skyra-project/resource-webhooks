@@ -1,15 +1,15 @@
 <div align="center">
 
-![Sapphire Logo](https://cdn.skyra.pw/gh-assets/sapphire.png)
+![Skyra Logo](https://cdn.skyra.pw/gh-assets/skyra_avatar.png)
 
-# Sapphire
+# Skyra Resource Webhooks
 
-**Webhook scripts to update Sapphire rules**
+**Webhook scripts to update Skyra Lounge rules**
 
-[![GitHub](https://img.shields.io/github/license/sapphire-community/resource-webhooks)](https://github.com/sapphire-community/resource-webhooks/blob/main/LICENSE.md)
-[![Depfu](https://badges.depfu.com/badges/3e687d5f136ff4e619f690491b831270/count.svg)](https://depfu.com/github/sapphire-community/resource-webhooks?project_id=24218)
+[![GitHub](https://img.shields.io/github/license/skyra-project/resource-webhooks)](https://github.com/skyra-project/resource-webhooks/blob/main/LICENSE.md)
+[![Depfu](https://badges.depfu.com/badges/aec2d160513e3052a4691491e16984bd/count.svg)](https://depfu.com/github/skyra-project/resource-webhooks?project_id=24341)
 
-[![Support Server](https://discord.com/api/guilds/737141877803057244/embed.png?style=banner2)](https://sapphirejs.com/discord)
+[![Support Server](https://discord.com/api/guilds/254360814063058944/embed.png?style=banner2)](https://join.skyra.pw)
 
 </div>
 

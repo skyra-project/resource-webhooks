@@ -18,7 +18,7 @@ in your text editor or IDE of your choice to ensure builds from GitHub Actions d
 
 **_Before committing and pushing your changes, please ensure that you do not have any linting errors by running `yarn lint`!_**
 
-### Sapphire Resource Webhooks Concept Guidelines
+### Skyra Resource Webhooks Concept Guidelines
 
 There are a number of guidelines considered when reviewing Pull Requests to be merged. _This is by no means an exhaustive list, but here are some things to consider before/while submitting your ideas._
 
@@ -27,9 +27,7 @@ There are a number of guidelines considered when reviewing Pull Requests to be m
 
 <!-- Link Dump -->
 
-<!-- Code -->
-
-[discord server]: https://sapphirejs.com/discord
-[here]: https://github.com/sapphire-community/framework/pulls
+[discord server]: https://join.skyra.pw
+[here]: https://github.com/skyra-project/framework/pulls
 [eslint]: https://eslint.org/
 [scripts]: /scripts
