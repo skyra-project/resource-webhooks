@@ -109,7 +109,7 @@ _ _
 _ _
 <:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org) - *Bringing you more memes than your heart could desire*
 <:gqlp:706423792561553428> [__GraphQL Pokémon__](https://graphqlpokemon.favware.tech) - *The Pokémon data source that I use*
-<:sapphire:832715408280780850> [__Sapphire__](https://sapphirejs.com) - *The framework that is used in my code*
+<:sapphire:746069730170896405> [__Sapphire__](https://sapphirejs.com) - *The framework that is used in my code*
 
 
 ⬆️ [Jump to the top](%JUMP_TO_TOP%)
