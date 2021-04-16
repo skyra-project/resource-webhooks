@@ -66,9 +66,9 @@ _ _
 <:pointer:832699900088811550> <@&780757149395451914> The role you get by gaining 100000 points.
 _ _
 **My Sisters:**
-<:pointer:832699900088811550> <@&512450043345764364> Alestra is a bot made for <:canvasconstructor:451438332375728128> [__Canvas Constructor__](<https://canvasconstructor.js.org>).
-<:pointer:832699900088811550> <@&338263528966455298> Aelia is the best DJ in the galaxy, made especially for <@&303680002245918724>.
-<:pointer:832699900088811550> <@&444086611001606154> Evlyn monitors me and my other sisters for downtime, but she's feeling a bit down herself as of late.
+<:pointer:832699900088811550> <@&512450043345764364> is a bot made for <:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org).
+<:pointer:832699900088811550> <@&338263528966455298> is the best DJ in the galaxy, made especially for <@&303680002245918724>.
+<:pointer:832699900088811550> <@&444086611001606154> monitors me and my other sisters for downtime, but she's feeling a bit down herself as of late.
 
 
 %PNG_RULES%
