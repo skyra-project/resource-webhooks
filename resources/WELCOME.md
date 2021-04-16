@@ -111,5 +111,5 @@ _ _
 <:gqlp:706423792561553428> [__GraphQL Pokémon__](https://graphqlpokemon.favware.tech) - *The Pokémon data source that I use*
 <:sapphire:746069730170896405> [__Sapphire__](https://sapphirejs.com) - *The framework that is used in my code*
 
-
+_ _
 ⬆️ [Jump to the top](%JUMP_TO_TOP%)

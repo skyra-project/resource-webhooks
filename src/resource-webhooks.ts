@@ -68,7 +68,7 @@ for (const channel of channels) {
 
 	for (let part of parts) {
 		if (firstMessage) {
-			part = part.replace(jumpRegex, `https://discord.com/channels/737141877803057244/${firstMessage.channel_id}/${firstMessage.id}`);
+			part = part.replace(jumpRegex, `https://discord.com/channels/254360814063058944/${firstMessage.channel_id}/${firstMessage.id}`);
 		}
 
 		// A raw API response is returned here, not a Message object as the typings indicate
