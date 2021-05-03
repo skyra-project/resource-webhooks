@@ -42,6 +42,15 @@ The repository requires the `WEBHOOK_AVATAR` and `WEBHOOK_NAME` repository secre
 4. Channel names and other escape sequences should have the format `%FOO_BAR%` and need to be added to the mapping `replacePatterns` in `./src/index.ts`
 5. Add a Webhook requirement to `./.github/workflows/deployment.yml`. The repository secret should be prefixed with `WEBHOOK_` for added verbosity. The entry for our example is `FOO_BAR: ${{ secrets.WEBHOOK_FOO_BAR }}`
 
+### Deployment content
+
+Once a document is done for posting it can be deployed with [the GitHub workflow][deployment].
+
+1. Go to [the GitHub workflow][deployment]
+2. Click "Run workflow"
+3. In the input field add the file name of the file to deploy
+4. Confirm with "Run workflow"
+
 ## Buy us some doughnuts
 
 Skyra Project is open source and always will be, even if we don't get donations. That said, we know there are amazing people who
@@ -97,3 +106,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 [patreonimage]: https://cdn.skyra.pw/gh-assets/patreon.png
 [paypal]: https://donate.skyra.pw/paypal
 [paypalimage]: https://cdn.skyra.pw/gh-assets/paypal.png
+[deployment]: https://github.com/skyra-project/resource-webhooks/actions/workflows/deployment.yml
