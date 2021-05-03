@@ -11,6 +11,7 @@ const jumpRegex = /%JUMP_TO_TOP%/gm;
 const imagesBaseUrl = 'https://raw.githubusercontent.com/skyra-project/resource-webhooks/main/resources/images';
 const linkEscapeRegex = /\[(.+?)\]\((.+?)\)/gm;
 const resolveIdentifier = (channelName: string): string => channelName.toUpperCase().replace(/-/gm, '_');
+const resolveHooks = (channelName: string): string => channelName.replace(/(RELEASE)(?:_[0-9]{4}(?:_[0-9]{2}){2})/gm, '$1');
 const linkEscapeReplacer = (_: any, p1: string, p2: string): string => `[${p1}](<${p2}>)`;
 
 const replacePatterns: Record<string, string> = {} as const;
@@ -22,21 +23,23 @@ const wait: {
 
 /* Start processing */
 
-const deployChannelString = process.env.DEPLOY_CHANNELS;
+const deployChannelString = process.env.DEPLOY_CHANNELS; // RELEASE-2021-05-04
 const channels = deployChannelString
 	?.trim()
 	.split(/ *, */gm)
-	.map((c) => resolveIdentifier(c));
+	.map((c) => resolveIdentifier(c)); // [ 'RELEASE_2021_05_04' ]
 
 if (!channels) {
 	throw new Error(`[MISSING] No deploy channels provided`);
 }
 
+const channelsForHooksCheck = channels.map((c) => resolveHooks(c));
+
 const resourcesDir = new URL('../resources/', import.meta.url);
 
 const files = await readdir(resourcesDir);
 
-const missingHooks = channels.filter((c) => !Boolean(process.env[c]));
+const missingHooks = channelsForHooksCheck.filter((c) => !Boolean(process.env[c]));
 const missingFiles = channels.filter((c) => !files.includes(`${c}.md`));
 
 if (missingHooks.length) {
