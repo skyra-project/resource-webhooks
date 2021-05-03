@@ -32,6 +32,7 @@ jobs:
         env:
           WELCOME: ${{ secrets.WEBHOOK_WELCOME }}
           RELEASE: ${{ secrets.WEBHOOK_RELEASE }}
+          DRAFT: ${{ secrets.WEBHOOK_DRAFT }}
           WEBHOOK_AVATAR: ${{ secrets.WEBHOOK_AVATAR }}
           WEBHOOK_NAME: ${{ secrets.WEBHOOK_NAME }}
           DEPLOY_CHANNELS: ${{ github.event.inputs.deployChannels }}
