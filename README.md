@@ -28,7 +28,7 @@ The repository requires the `WEBHOOK_AVATAR` and `WEBHOOK_NAME` repository secre
 
 ### Adding release announcements
 
-1. Add the file into [`./resources`](/resources). The file name must be `RELEASE-YYYY-MM-DD`, for example, `RELEASE-2021-05-04` for the release of May 4th 2021.
+1. Add the file into [`./resources`](/resources). The file name must be `RELEASE_YYYY_MM_DD`, for example, `RELEASE_2021_05_04` for the release of May 4th 2021.
 2. Follow steps 2-5 from [Adding content](#adding-content)
 
 ### Adding content
