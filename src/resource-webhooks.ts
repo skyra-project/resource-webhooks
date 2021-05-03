@@ -77,6 +77,7 @@ for (const channel of channels) {
 
 	// The env var to use
 	const envVarToUse = isRelease(channel) ? 'RELEASE' : isDraft(channel) ? 'DRAFT' : channel;
+	const roleToMention = isRelease(channel) ? '352412797176643585' : isDraft(channel) ? '541743369081192451' : '';
 
 	// Get the hookID and hookToken. If it is a release channel then just get the release environment variable.
 	const [hookID, hookToken] = process.env[envVarToUse]!.split('/').slice(-2);
@@ -88,11 +89,7 @@ for (const channel of channels) {
 	// Read the file and replace some content in it to make it Discord message ready
 	const raw = await readFile(new URL(fileName, resourcesDir), { encoding: 'utf8' });
 
-	const r1 = isRelease(channel)
-		? `**New announcement for** <@&352412797176643585>:\n${raw}`
-		: isDraft(channel)
-		? `**New announcement for** <@&541743369081192451>:\n${raw}`
-		: raw;
+	const r1 = isRelease(channel) || isDraft(channel) ? `**New announcement for** <@&${roleToMention}>:\n${raw}` : raw;
 	const r2 = r1.replace(linkEscapeRegex, linkEscapeReplacer);
 	const r3 = Object.entries(replacePatterns).reduce((acc, [k, v]) => {
 		const regex = new RegExp(k, 'gm');
@@ -117,7 +114,7 @@ for (const channel of channels) {
 			username: process.env.WEBHOOK_NAME,
 			allowedMentions: {
 				users: [],
-				roles: []
+				roles: [roleToMention]
 			}
 		})) as unknown) as RESTPostAPIChannelMessageResult;
 
