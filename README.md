@@ -51,6 +51,11 @@ Once a document is done for posting it can be deployed with [the GitHub workflow
 3. In the input field add the file name of the file to deploy
 4. Confirm with "Run workflow"
 
+#### Testing a `RELEASE` deployment
+
+Releases in particular often need to be verified in Discord before they get published to the announcement channel.
+To this end it is possible to replace the `RELEASE` part of the file name with `DRAFT` and it will post to the [`#test`](https://discord.com/channels/541738403230777351/642137151626018818) channel in [`Skyra Development Suite`](https://discord.com/channels/541738403230777351) as opposed to [`#announcements`](https://discord.com/channels/254360814063058944/283965220446273547) in [`Skyra Lounge`](https://discord.com/channels/254360814063058944)
+
 ## Buy us some doughnuts
 
 Skyra Project is open source and always will be, even if we don't get donations. That said, we know there are amazing people who
