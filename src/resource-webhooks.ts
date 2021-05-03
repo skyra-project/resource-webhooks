@@ -62,8 +62,10 @@ if (missingFiles.length) {
 for (const channel of channels) {
 	console.log(`[STARTING] Deploying ${channel}`);
 
+	const isRelease = channel.startsWith('RELEASE');
+
 	// Get the hookID and hookToken. If it is a release channel then just get the release environment variable.
-	const [hookID, hookToken] = process.env[channel.startsWith('RELEASE') ? 'RELEASE' : channel]!.split('/').slice(-2);
+	const [hookID, hookToken] = process.env[isRelease ? 'RELEASE' : channel]!.split('/').slice(-2);
 	const hook = new WebhookClient(hookID, hookToken);
 
 	// Get the proper file name
@@ -71,14 +73,16 @@ for (const channel of channels) {
 
 	// Read the file and replace some content in it to make it Discord message ready
 	const raw = await readFile(new URL(fileName, resourcesDir), { encoding: 'utf8' });
-	const r1 = raw.replace(linkEscapeRegex, linkEscapeReplacer);
-	const r2 = Object.entries(replacePatterns).reduce((acc, [k, v]) => {
+
+	const r1 = isRelease ? `**New announcement for** <@&352412797176643585>:\n${raw}` : raw;
+	const r2 = r1.replace(linkEscapeRegex, linkEscapeReplacer);
+	const r3 = Object.entries(replacePatterns).reduce((acc, [k, v]) => {
 		const regex = new RegExp(k, 'gm');
 		return acc.replace(regex, v);
-	}, r1);
-	const r3 = r2.replace(/%PNG_([A-Z_]+)%/gm, `${imagesBaseUrl}/${channel}/$1.png`);
+	}, r2);
+	const r4 = r3.replace(/%PNG_([A-Z_]+)%/gm, `${imagesBaseUrl}/${channel}/$1.png`);
 
-	const parts = r3.split('\n\n');
+	const parts = r4.split('\n\n');
 
 	// Store a reference to the first message
 	let firstMessage: RESTPostAPIChannelMessageResult | null = null;
