@@ -88,7 +88,11 @@ for (const channel of channels) {
 	// Read the file and replace some content in it to make it Discord message ready
 	const raw = await readFile(new URL(fileName, resourcesDir), { encoding: 'utf8' });
 
-	const r1 = isRelease(channel) ? `**New announcement for** <@&352412797176643585>:\n${raw}` : raw;
+	const r1 = isRelease(channel)
+		? `**New announcement for** <@&352412797176643585>:\n${raw}`
+		: isDraft(channel)
+		? `**New announcement for** <@&541743369081192451>:\n${raw}`
+		: raw;
 	const r2 = r1.replace(linkEscapeRegex, linkEscapeReplacer);
 	const r3 = Object.entries(replacePatterns).reduce((acc, [k, v]) => {
 		const regex = new RegExp(k, 'gm');
