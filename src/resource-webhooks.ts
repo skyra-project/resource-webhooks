@@ -13,6 +13,7 @@ const replacePatterns: Record<string, string> = {} as const;
 const linkEscapeRegex = /\[(.+?)\]\((.+?)\)/gm;
 const resolveIdentifier = (channelName: string): string => channelName.toUpperCase().replace(/-/gm, '_');
 const linkEscapeReplacer = (_: any, p1: string, p2: string): string => `[${p1}](<${p2}>)`;
+const isRelease = (channelName: string) => channelName.toLowerCase().startsWith('release');
 
 const wait: {
 	(ms: number): Promise<void>;
@@ -40,7 +41,7 @@ const files = await readdir(resourcesDir);
 
 // Check if there are any hooks missing, for release updates we specifically check for the release webhook.
 const missingHooks = channels.filter((c) => {
-	if (c.startsWith('RELEASE')) {
+	if (isRelease(c)) {
 		return !Boolean(process.env.RELEASE);
 	}
 
@@ -62,10 +63,8 @@ if (missingFiles.length) {
 for (const channel of channels) {
 	console.log(`[STARTING] Deploying ${channel}`);
 
-	const isRelease = channel.startsWith('RELEASE');
-
 	// Get the hookID and hookToken. If it is a release channel then just get the release environment variable.
-	const [hookID, hookToken] = process.env[isRelease ? 'RELEASE' : channel]!.split('/').slice(-2);
+	const [hookID, hookToken] = process.env[isRelease(channel) ? 'RELEASE' : channel]!.split('/').slice(-2);
 	const hook = new WebhookClient(hookID, hookToken);
 
 	// Get the proper file name
@@ -74,7 +73,7 @@ for (const channel of channels) {
 	// Read the file and replace some content in it to make it Discord message ready
 	const raw = await readFile(new URL(fileName, resourcesDir), { encoding: 'utf8' });
 
-	const r1 = isRelease ? `**New announcement for** <@&352412797176643585>:\n${raw}` : raw;
+	const r1 = isRelease(channel) ? `**New announcement for** <@&352412797176643585>:\n${raw}` : raw;
 	const r2 = r1.replace(linkEscapeRegex, linkEscapeReplacer);
 	const r3 = Object.entries(replacePatterns).reduce((acc, [k, v]) => {
 		const regex = new RegExp(k, 'gm');
