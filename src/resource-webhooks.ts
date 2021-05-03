@@ -77,7 +77,7 @@ for (const channel of channels) {
 
 	// The env var to use
 	const envVarToUse = isRelease(channel) ? 'RELEASE' : isDraft(channel) ? 'DRAFT' : channel;
-	const roleToMention = isRelease(channel) ? '352412797176643585' : isDraft(channel) ? '541743369081192451' : '';
+	const roleToMention = isRelease(channel) ? '352412797176643585' : isDraft(channel) ? '541743369081192451' : null;
 
 	// Get the hookID and hookToken. If it is a release channel then just get the release environment variable.
 	const [hookID, hookToken] = process.env[envVarToUse]!.split('/').slice(-2);
@@ -114,7 +114,7 @@ for (const channel of channels) {
 			username: process.env.WEBHOOK_NAME,
 			allowedMentions: {
 				users: [],
-				roles: [roleToMention]
+				roles: roleToMention ? [roleToMention] : []
 			}
 		})) as unknown) as RESTPostAPIChannelMessageResult;
 
