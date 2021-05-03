@@ -26,9 +26,14 @@ Example: `rules, useful-servers`
 
 The repository requires the `WEBHOOK_AVATAR` and `WEBHOOK_NAME` repository secrets which control the webhooks avatar and name respectively for all deployed webhook resources.
 
+### Adding release announcements
+
+1. Add the file into [`./resources`](/resources). The file name must be `RELEASE-YYYY-MM-DD`, for example, `RELEASE-2021-05-04` for the release of May 4th 2021.
+2. Follow steps 2-5 from [Adding content](#adding-content)
+
 ### Adding content
 
-1. Add the file into `./resources` (The file name should be derived from the channel the webhook will post to for added verbosity. The channel `foo-bar` becomes `FOO_BAR.md`)
+1. Add the file into [`./resources`](/resources) (The file name should be derived from the channel the webhook will post to for added verbosity. The channel `foo-bar` becomes `FOO_BAR.md`)
 2. Each new paragraph (double newline character) will be posted in a new message. Try to use as few messages as possible (the limit is 2000 characters per message) to avoid rate limiting. You can add a spacer and simulate a new message with `_ _`
 3. Adding images to a file can be done through
     1. Adding a folder with the same name as the markdown file name in `./resources/images`.
