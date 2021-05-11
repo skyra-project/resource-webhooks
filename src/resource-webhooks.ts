@@ -1,7 +1,7 @@
 import type { RESTPostAPIChannelMessageResult } from 'discord-api-types/v8';
 import { WebhookClient } from 'discord.js';
-import { readdir, readFile } from 'node:fs/promises';
-import { URL } from 'node:url';
+import { readdir, readFile } from 'fs/promises';
+import { URL } from 'url';
 import { promisify } from 'util';
 
 /* Regexes, constants, and utility functions */
