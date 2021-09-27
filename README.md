@@ -7,7 +7,6 @@
 **Webhook scripts to update Skyra Lounge rules**
 
 [![GitHub](https://img.shields.io/github/license/skyra-project/resource-webhooks)](https://github.com/skyra-project/resource-webhooks/blob/main/LICENSE.md)
-[![Depfu](https://badges.depfu.com/badges/aec2d160513e3052a4691491e16984bd/count.svg)](https://depfu.com/github/skyra-project/resource-webhooks?project_id=24341)
 
 [![Support Server](https://discord.com/api/guilds/254360814063058944/embed.png?style=banner2)](https://join.skyra.pw)
 
