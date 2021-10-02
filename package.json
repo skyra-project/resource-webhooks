@@ -13,7 +13,7 @@
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
 		"format": "prettier --write src/**/*.ts",
-		"update": "yarn upgrade-interactive --latest",
+		"update": "yarn up * -i",
 		"deploy": "node --unhandled-rejections=strict dist/resource-webhooks.js",
 		"build": "tsc -b src",
 		"clean": "tsc -b src --clean",
@@ -46,6 +46,7 @@
 		"common-tags": "^1.8.0",
 		"cz-conventional-changelog": "^3.3.0",
 		"discord-api-types": "^0.23.1",
+		"eslint": "^7.32.0",
 		"husky": "^7.0.2",
 		"lint-staged": "^11.1.2",
 		"prettier": "^2.4.1",
@@ -68,5 +69,6 @@
 			"path": "./node_modules/cz-conventional-changelog"
 		}
 	},
-	"prettier": "@sapphire/prettier-config"
+	"prettier": "@sapphire/prettier-config",
+	"packageManager": "yarn@3.0.2"
 }
