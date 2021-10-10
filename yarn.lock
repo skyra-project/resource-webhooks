@@ -15,11 +15,11 @@ __metadata:
   linkType: hard
 
 "@babel/code-frame@npm:^7.0.0":
-  version: 7.14.5
-  resolution: "@babel/code-frame@npm:7.14.5"
+  version: 7.15.8
+  resolution: "@babel/code-frame@npm:7.15.8"
   dependencies:
     "@babel/highlight": ^7.14.5
-  checksum: 0adbe4f8d91586f764f524e57631f582ab988b2ef504391a5d89db29bfaaf7c67c237798ed4a249b6a2d7135852cf94d3d07ce6b9739dd1df1f271d5ed069565
+  checksum: d75950f0e0925b33ab5e870079134509c13bcdbf96c8bf4d0dea91606775bc044258c762104ab20882fda3b07cbff24176ed77dfb57af5a901bde33ddfe690bb
   languageName: node
   linkType: hard
 
@@ -134,23 +134,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:>6.1.1":
-  version: 13.2.0
-  resolution: "@commitlint/load@npm:13.2.0"
-  dependencies:
-    "@commitlint/execute-rule": ^13.2.0
-    "@commitlint/resolve-extends": ^13.2.0
-    "@commitlint/types": ^13.2.0
-    "@endemolshinegroup/cosmiconfig-typescript-loader": ^3.0.2
-    chalk: ^4.0.0
-    cosmiconfig: ^7.0.0
-    lodash: ^4.17.19
-    resolve-from: ^5.0.0
-  checksum: e7eb39679547b460bffaee41d23cda8be158d07fdaed53ac996eab6f917db13546fd5b90a4f2e359d04aec036f6a169cf4153a0be3f711996683c5ca0c947766
-  languageName: node
-  linkType: hard
-
-"@commitlint/load@npm:^13.2.1":
+"@commitlint/load@npm:>6.1.1, @commitlint/load@npm:^13.2.1":
   version: 13.2.1
   resolution: "@commitlint/load@npm:13.2.1"
   dependencies:
@@ -376,13 +360,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/fetch@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@sapphire/fetch@npm:1.0.5"
+"@sapphire/fetch@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sapphire/fetch@npm:2.0.0"
   dependencies:
-    node-fetch: ^2.6.1
-    tslib: 2.x
-  checksum: 9a945ff5a7765ce4b77117218393a36345e8385a7983c5e3405704e348cfdfcaf245c0e855a5b5bf89e6c479fa956fa4fc67a8b8519dd7f2c16d14eba1f3a360
+    cross-fetch: ^3.1.4
+  checksum: 5afa6898a520063a543c99db18d4e81da00f9cd62b047075dc3e9794a6742ed26a8f7f42f58366ec9b40c8a4a10f317680ee3b30ccf7733e728a3e8efb10fb5a
   languageName: node
   linkType: hard
 
@@ -440,10 +423,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.10.1":
-  version: 16.10.2
-  resolution: "@types/node@npm:16.10.2"
-  checksum: 83c1c3c68e7500103908c3f16094e458879c840a719c15b6ea577f81fe1f24a1b3473bb6c8e8091fe79a82543ca7639c6b1088fcf80292ec091d1d1c9504a87e
+"@types/node@npm:*, @types/node@npm:^16.10.3":
+  version: 16.10.3
+  resolution: "@types/node@npm:16.10.3"
+  checksum: 3fd429bce8a4acb497dcc62b536782a5e87ccf7cd91d64a78b263ae5d66cb72bf84be9eeeff6f84ae0567b065a40b267caa66d311f9e094990a5847bbd168a29
   languageName: node
   linkType: hard
 
@@ -1083,6 +1066,15 @@ __metadata:
   version: 1.1.1
   resolution: "create-require@npm:1.1.1"
   checksum: a9a1503d4390d8b59ad86f4607de7870b39cad43d929813599a23714831e81c520bddf61bcdd1f8e30f05fd3a2b71ae8538e946eb2786dc65c2bbc520f692eff
+  languageName: node
+  linkType: hard
+
+"cross-fetch@npm:^3.1.4":
+  version: 3.1.4
+  resolution: "cross-fetch@npm:3.1.4"
+  dependencies:
+    node-fetch: 2.6.1
+  checksum: 2107e5e633aa327bdacab036b1907c7ddd28651ede0c1d4fd14db04510944d56849a8255e2f5b8f9a1da0e061b6cee943f6819fe29ed9a130195e7fadd82a4ff
   languageName: node
   linkType: hard
 
@@ -2600,6 +2592,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-fetch@npm:2.6.1":
+  version: 2.6.1
+  resolution: "node-fetch@npm:2.6.1"
+  checksum: 91075bedd57879117e310fbcc36983ad5d699e522edb1ebcdc4ee5294c982843982652925c3532729fdc86b2d64a8a827797a745f332040d91823c8752ee4d7c
+  languageName: node
+  linkType: hard
+
 "node-fetch@npm:^2.6.1":
   version: 2.6.5
   resolution: "node-fetch@npm:2.6.5"
@@ -3056,11 +3055,11 @@ resolve@^1.10.0:
     "@commitlint/config-angular": ^13.2.0
     "@commitlint/config-conventional": ^13.2.0
     "@sapphire/eslint-config": ^3.3.1
-    "@sapphire/fetch": ^1.0.5
+    "@sapphire/fetch": ^2.0.0
     "@sapphire/prettier-config": ^1.2.1
     "@sapphire/ts-config": ^3.1.0
     "@types/common-tags": ^1.8.1
-    "@types/node": ^16.10.1
+    "@types/node": ^16.10.3
     "@types/ws": ^8.2.0
     common-tags: ^1.8.0
     cz-conventional-changelog: ^3.3.0
@@ -3541,17 +3540,17 @@ resolve@^1.10.0:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.x, tslib@npm:^2, tslib@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "tslib@npm:2.3.1"
-  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
-  languageName: node
-  linkType: hard
-
 "tslib@npm:^1.8.1, tslib@npm:^1.9.0":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2, tslib@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "tslib@npm:2.3.1"
+  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
 
