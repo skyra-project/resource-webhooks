@@ -43,7 +43,7 @@
 		"@types/common-tags": "^1.8.1",
 		"@types/node": "^16.11.7",
 		"@types/ws": "^8.2.0",
-		"common-tags": "^1.8.0",
+		"common-tags": "^1.8.1",
 		"cz-conventional-changelog": "^3.3.0",
 		"discord-api-types": "^0.24.0",
 		"eslint": "^8.2.0",
