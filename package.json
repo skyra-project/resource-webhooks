@@ -36,20 +36,20 @@
 		"@commitlint/cli": "^15.0.0",
 		"@commitlint/config-angular": "^15.0.0",
 		"@commitlint/config-conventional": "^15.0.0",
-		"@sapphire/eslint-config": "^4.0.5",
+		"@sapphire/eslint-config": "^4.0.7",
 		"@sapphire/fetch": "^2.0.3",
-		"@sapphire/prettier-config": "^1.2.4",
-		"@sapphire/ts-config": "^3.1.4",
+		"@sapphire/prettier-config": "^1.2.6",
+		"@sapphire/ts-config": "^3.1.6",
 		"@types/common-tags": "^1.8.1",
-		"@types/node": "^16.11.9",
+		"@types/node": "^16.11.10",
 		"@types/ws": "^8.2.0",
 		"common-tags": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
 		"discord-api-types": "^0.24.0",
 		"eslint": "^8.3.0",
 		"husky": "^7.0.4",
-		"lint-staged": "^12.1.1",
-		"prettier": "^2.4.1",
+		"lint-staged": "^12.1.2",
+		"prettier": "^2.5.0",
 		"pretty-quick": "^3.1.2",
 		"typescript": "^4.5.2"
 	},
@@ -70,5 +70,5 @@
 		}
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@3.1.0"
+	"packageManager": "yarn@3.1.1"
 }
