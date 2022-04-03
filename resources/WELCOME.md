@@ -3,7 +3,7 @@
 
 Welcome to **Skyra Lounge**!
 _ _
-I'm an AIO Discord Bot focused on moderation, social, and music that was born out of curiosity. My name comes from a joke a friend of my creator made by joining "Kyra" with "SkyNET", resulting in "SkyraNET". The joke kinda stuck around and became my name. An alternative name was "Shiny", which became the name of the currency instead.
+I'm an AIO Discord Bot focused on moderation, social, and utility that was born out of curiosity. My name comes from a joke a friend of my creator made by joining "Kyra" with "SkyNET", resulting in "SkyraNET". The joke kinda stuck around and became my name. An alternative name was "Shiny", which became the name of the currency instead.
 _ _
 Want to know even more cool information about me? My creator Kyra has been writing my lore since he was only two and a half years old! Big parts are currently being written down for others to read, suggest and contribute to. If you want to learn some of it use `s!aifact`.
 
