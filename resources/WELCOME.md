@@ -3,7 +3,7 @@
 
 Welcome to **Skyra Lounge**!
 _ _
-I'm an AIO Discord Bot focused on moderation, social, and music that was born out of curiosity. My name comes from a joke a friend of my creator made by joining "Kyra" with "SkyNET", resulting in "SkyraNET". The joke kinda stuck around and became my name. An alternative name was "Shiny", which became the name of the currency instead.
+I'm an AIO Discord Bot focused on moderation, social, and utility that was born out of curiosity. My name comes from a joke a friend of my creator made by joining "Kyra" with "SkyNET", resulting in "SkyraNET". The joke kinda stuck around and became my name. An alternative name was "Shiny", which became the name of the currency instead.
 _ _
 Want to know even more cool information about me? My creator Kyra has been writing my lore since he was only two and a half years old! Big parts are currently being written down for others to read, suggest and contribute to. If you want to learn some of it use `s!aifact`.
 
@@ -46,8 +46,7 @@ _ _
 _ _
 <:pointer:832699900088811550> <@&409657867621367831> Our lovely partners, check out their servers!
 <:pointer:832699900088811550> <@&303680002245918724> Our donors! Skyra Project lives thanks to them! ❤️
-<:pointer:832699900088811550> <@&352412797176643585> Get notified when we make <#737142071319855105> by using `s!subscribe`!
-<:pointer:832699900088811550> <@&822478155431936000> The role assigned to people when it is their birthday. Set your birthday with `s!birthday` in <#737452979162054717>.
+<:pointer:832699900088811550> <@&352412797176643585> Get notified when we make <#737142071319855105> by using `s!roles Subscribers`!
 <:pointer:832699900088811550> <@&674072108216746056> The role assigned to people who use their Discord Nitro to boost this server, thank you :heart:.
 <:pointer:832699900088811550> <@&797039015014432769> People who help translate me to other language. Claim this role with `s!roles translators`.
 <:pointer:832699900088811550> <@&563629993574268928> People who can help you with questions with using me in your server(s).
