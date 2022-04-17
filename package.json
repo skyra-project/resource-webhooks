@@ -11,22 +11,14 @@
 	"main": "dist/resource-webhooks.js",
 	"type": "module",
 	"scripts": {
-		"lint": "eslint src --ext ts --fix",
-		"format": "prettier --write \"src\"",
+		"lint": "eslint src scripts --ext mjs,ts --fix",
+		"format": "prettier --write \"{src,scripts}/**/*.{mjs,ts}\"",
 		"update": "yarn upgrade-interactive",
 		"deploy": "node --unhandled-rejections=strict dist/resource-webhooks.js",
 		"build": "tsc -b src",
 		"clean": "tsc -b src --clean",
 		"watch": "tsc -b src --watch"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/skyra-project/resource-webhooks.git"
-	},
-	"bugs": {
-		"url": "https://github.com/skyra-project/resource-webhooks/issues"
-	},
-	"homepage": "https://github.com/skyra-project/resource-webhooks#readme",
 	"devDependencies": {
 		"@commitlint/cli": "^16.2.3",
 		"@commitlint/config-angular": "^16.2.3",
