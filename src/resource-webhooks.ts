@@ -99,7 +99,7 @@ for (const channel of channels) {
 	let firstMessage: RESTPostAPIChannelMessageResult | null = null;
 
 	// Construct the URL to POST to
-	const url = new URL(RouteBases.api + Routes.webhookMessage(hookID, hookToken));
+	const url = new URL(RouteBases.api + Routes.webhook(hookID, hookToken));
 	url.searchParams.append('wait', 'true');
 
 	// Send each of the parts
