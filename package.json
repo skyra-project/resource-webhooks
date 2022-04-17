@@ -12,17 +12,12 @@
 	"type": "module",
 	"scripts": {
 		"lint": "eslint src --ext ts --fix",
-		"format": "prettier --write src/**/*.ts",
-		"update": "yarn up \"*\" -i",
+		"format": "prettier --write \"src\"",
+		"update": "yarn upgrade-interactive",
 		"deploy": "node --unhandled-rejections=strict dist/resource-webhooks.js",
 		"build": "tsc -b src",
 		"clean": "tsc -b src --clean",
-		"watch": "tsc -b src --watch",
-		"commit": "git-cz",
-		"cz": "git-cz"
-	},
-	"dependencies": {
-		"discord.js": "^13.6.0"
+		"watch": "tsc -b src --watch"
 	},
 	"repository": {
 		"type": "git",
@@ -41,7 +36,7 @@
 		"@sapphire/prettier-config": "^1.4.2",
 		"@sapphire/ts-config": "^3.3.4",
 		"@types/common-tags": "^1.8.1",
-		"@types/node": "^17.0.17",
+		"@types/node": "^17.0.24",
 		"@types/ws": "^8.5.3",
 		"@typescript-eslint/eslint-plugin": "^5.19.0",
 		"@typescript-eslint/parser": "^5.19.0",

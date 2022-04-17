@@ -1,12 +1,14 @@
-import type { RESTPostAPIChannelMessageResult } from 'discord-api-types/v8';
-import { WebhookClient } from 'discord.js';
-import { readdir, readFile } from 'fs/promises';
-import { setTimeout as wait } from 'timers/promises';
-import { URL } from 'url';
+import { fetch, FetchMethods, FetchResultTypes } from '@sapphire/fetch';
+import { Routes, type RESTPostAPIChannelMessageResult } from 'discord-api-types/v10';
+import { readdir, readFile } from 'node:fs/promises';
+import { platform, release } from 'node:os';
+import { setTimeout as wait } from 'node:timers/promises';
+import { URL } from 'node:url';
 
 /* Regexes, constants, and utility functions */
 const jumpRegex = /%JUMP_TO_TOP%/gm;
 
+const FetchUserAgent = `Skyra Project Resource Webhooks/2.0.0 (fetch) ${platform()}/${release()} (https://github.com/skyra-project/resource-webhooks/tree/main)`;
 const SkyraLoungeServerId = '254360814063058944';
 const imagesBaseUrl = 'https://raw.githubusercontent.com/skyra-project/resource-webhooks/main/resources/images';
 const replacePatterns: Record<string, string> = {} as const;
@@ -76,7 +78,6 @@ for (const channel of channels) {
 
 	// Get the hookID and hookToken. If it is a release channel then just get the release environment variable.
 	const [hookID, hookToken] = process.env[envVarToUse]!.split('/').slice(-2);
-	const hook = new WebhookClient({ id: hookID, token: hookToken });
 
 	// Get the proper file name
 	const fileName = `${transformDraftToRelease(channel)}.md`;
@@ -97,27 +98,39 @@ for (const channel of channels) {
 	// Store a reference to the first message
 	let firstMessage: RESTPostAPIChannelMessageResult | null = null;
 
+	// Construct the URL to POST to
+	const url = new URL(Routes.webhookMessage(hookID, hookToken));
+	url.searchParams.append('wait', 'true');
+
 	// Send each of the parts
 	for (let part of parts) {
 		if (firstMessage) {
 			part = part.replace(jumpRegex, `https://discord.com/channels/${SkyraLoungeServerId}/${firstMessage.channel_id}/${firstMessage.id}`);
 		}
 
-		// A raw API response is returned here, not a Message object as the typings indicate
-		const response = (await hook.send({
-			content: part,
-			avatarURL: process.env.WEBHOOK_AVATAR,
-			username: process.env.WEBHOOK_NAME,
-			allowedMentions: {
-				users: [],
-				roles: roleToMention ? [roleToMention] : []
-			}
-		})) as unknown as RESTPostAPIChannelMessageResult;
+		const response = await fetch<RESTPostAPIChannelMessageResult>(
+			url,
+			{
+				method: FetchMethods.Post,
+				body: JSON.stringify({
+					content: part,
+					avatarURL: process.env.WEBHOOK_AVATAR,
+					username: process.env.WEBHOOK_NAME,
+					allowedMentions: {
+						users: [],
+						roles: roleToMention ? [roleToMention] : []
+					}
+				}),
+				headers: {
+					'Content-Type': 'application/json',
+					'User-Agent': FetchUserAgent
+				}
+			},
+			FetchResultTypes.JSON
+		);
 
 		if (!firstMessage) firstMessage = response;
 
 		await wait(1000);
 	}
-
-	hook.destroy();
 }
