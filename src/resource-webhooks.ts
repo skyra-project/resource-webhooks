@@ -114,9 +114,9 @@ for (const channel of channels) {
 				method: FetchMethods.Post,
 				body: JSON.stringify({
 					content: part,
-					avatarURL: process.env.WEBHOOK_AVATAR,
+					avatar_url: process.env.WEBHOOK_AVATAR,
 					username: process.env.WEBHOOK_NAME,
-					allowedMentions: {
+					allowed_mentions: {
 						users: [],
 						roles: roleToMention ? [roleToMention] : []
 					}
