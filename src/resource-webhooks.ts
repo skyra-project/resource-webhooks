@@ -1,5 +1,5 @@
 import { fetch, FetchMethods, FetchResultTypes } from '@sapphire/fetch';
-import { Routes, type RESTPostAPIChannelMessageResult } from 'discord-api-types/v10';
+import { RouteBases, Routes, type RESTPostAPIChannelMessageResult } from 'discord-api-types/v10';
 import { readdir, readFile } from 'node:fs/promises';
 import { platform, release } from 'node:os';
 import { setTimeout as wait } from 'node:timers/promises';
@@ -99,7 +99,7 @@ for (const channel of channels) {
 	let firstMessage: RESTPostAPIChannelMessageResult | null = null;
 
 	// Construct the URL to POST to
-	const url = new URL(Routes.webhookMessage(hookID, hookToken));
+	const url = new URL(RouteBases.api + Routes.webhookMessage(hookID, hookToken));
 	url.searchParams.append('wait', 'true');
 
 	// Send each of the parts
