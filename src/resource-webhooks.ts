@@ -1,5 +1,5 @@
 import { fetch, FetchMethods, FetchResultTypes } from '@sapphire/fetch';
-import { RouteBases, Routes, type RESTPostAPIChannelMessageResult } from 'discord-api-types/v10';
+import { RouteBases, Routes, type RESTPostAPIChannelMessageResult, type RESTPostAPIWebhookWithTokenJSONBody } from 'discord-api-types/v10';
 import { readdir, readFile } from 'node:fs/promises';
 import { platform, release } from 'node:os';
 import { setTimeout as wait } from 'node:timers/promises';
@@ -18,6 +18,11 @@ const linkEscapeReplacer = (_: any, p1: string, p2: string): string => `[${p1}](
 const isDraft = (channelName: string) => channelName.toLowerCase().startsWith('draft');
 const isRelease = (channelName: string) => channelName.toLowerCase().startsWith('release');
 const transformDraftToRelease = (channelName: string) => channelName.replace('DRAFT', 'RELEASE');
+
+const baseBody: RESTPostAPIWebhookWithTokenJSONBody = {
+	avatar_url: process.env.WEBHOOK_AVATAR,
+	username: process.env.WEBHOOK_NAME
+};
 
 /* Start processing */
 
@@ -76,6 +81,14 @@ for (const channel of channels) {
 	const envVarToUse = isRelease(channel) ? 'RELEASE' : isDraft(channel) ? 'DRAFT' : channel;
 	const roleToMention = isRelease(channel) ? '352412797176643585' : isDraft(channel) ? '541743369081192451' : null;
 
+	const bodyWithMentions: RESTPostAPIWebhookWithTokenJSONBody = {
+		...baseBody,
+		allowed_mentions: {
+			users: [],
+			roles: roleToMention ? [roleToMention] : []
+		}
+	};
+
 	// Get the hookID and hookToken. If it is a release channel then just get the release environment variable.
 	const [hookID, hookToken] = process.env[envVarToUse]!.split('/').slice(-2);
 
@@ -108,19 +121,16 @@ for (const channel of channels) {
 			part = part.replace(jumpRegex, `https://discord.com/channels/${SkyraLoungeServerId}/${firstMessage.channel_id}/${firstMessage.id}`);
 		}
 
+		const body: RESTPostAPIWebhookWithTokenJSONBody = {
+			...bodyWithMentions,
+			content: part
+		};
+
 		const response = await fetch<RESTPostAPIChannelMessageResult>(
 			url,
 			{
 				method: FetchMethods.Post,
-				body: JSON.stringify({
-					content: part,
-					avatar_url: process.env.WEBHOOK_AVATAR,
-					username: process.env.WEBHOOK_NAME,
-					allowed_mentions: {
-						users: [],
-						roles: roleToMention ? [roleToMention] : []
-					}
-				}),
+				body: JSON.stringify(body),
 				headers: {
 					'Content-Type': 'application/json',
 					'User-Agent': FetchUserAgent
