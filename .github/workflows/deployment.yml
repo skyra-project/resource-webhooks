@@ -20,7 +20,7 @@ jobs:
           node-version: 16
           cache: yarn
       - name: Install Dependencies
-        run: yarn --frozen-lockfile
+        run: yarn --immutable
       - name: Restore dist cache
         uses: actions/cache@48af2dc4a9e8278b89d7fa154b955c30c6aaab09 # tag=v3.0.2
         id: dist-cache-restore
