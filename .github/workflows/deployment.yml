@@ -22,7 +22,7 @@ jobs:
       - name: Install Dependencies
         run: yarn --immutable
       - name: Restore dist cache
-        uses: actions/cache@0865c47f36e68161719c5b124609996bb5c40129 # tag=v3.0.5
+        uses: actions/cache@f4278025ab0f432ce369118909e46deec636f50c # tag=v3.0.6
         id: dist-cache-restore
         with:
           path: dist
