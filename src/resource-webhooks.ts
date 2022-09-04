@@ -19,11 +19,6 @@ const isDraft = (channelName: string) => channelName.toLowerCase().startsWith('d
 const isRelease = (channelName: string) => channelName.toLowerCase().startsWith('release');
 const transformDraftToRelease = (channelName: string) => channelName.replace('DRAFT', 'RELEASE');
 
-const baseBody: RESTPostAPIWebhookWithTokenJSONBody = {
-	avatar_url: process.env.WEBHOOK_AVATAR,
-	username: process.env.WEBHOOK_NAME
-};
-
 /* Start processing */
 
 const deployChannelString = process.env.DEPLOY_CHANNELS;
@@ -82,7 +77,6 @@ for (const channel of channels) {
 	const roleToMention = isRelease(channel) ? '352412797176643585' : isDraft(channel) ? '541743369081192451' : null;
 
 	const bodyWithMentions: RESTPostAPIWebhookWithTokenJSONBody = {
-		...baseBody,
 		allowed_mentions: {
 			users: [],
 			roles: roleToMention ? [roleToMention] : []

@@ -23,8 +23,6 @@ Deploying the webhook messages is done manually via [workflow dispatch](https://
 The provided tags are the resource names in discord channel format and separated by the `,` character.  
 Example: `rules, useful-servers`
 
-The repository requires the `WEBHOOK_AVATAR` and `WEBHOOK_NAME` repository secrets which control the webhooks avatar and name respectively for all deployed webhook resources.
-
 ### Adding release announcements
 
 1. Add the file into [`./resources`](/resources). The file name must be `RELEASE_YYYY_MM_DD`, for example, `RELEASE_2021_05_04` for the release of May 4th 2021.
