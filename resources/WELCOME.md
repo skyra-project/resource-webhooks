@@ -15,8 +15,6 @@ __All of our source code is available under [`skyra-project`](https://github.com
 <:pointer:832699900088811550> <#409663610780909569> This channel!
 <:pointer:832699900088811550> <#283965220446273547> Announcements are posted here, you can follow it or use `s!roles Subscribers`!
 <:pointer:832699900088811550> <#838872584228569118> Our GitHub notifications, you can see all of the updates in this channel.
-<!-- <:pointer:832699900088811550> <#381384854127902721> Our lovely partners that help us increase exposure, check them out! -->
-<!-- <:pointer:832699900088811550> <#780786725193908225> People that are sponsored by Skyra Project, check them out! -->
 _ _
 **GENERAL**
 <:pointer:832699900088811550> <#254360814063058944> The off-topic channel for anyone to chit chat! <a:SkyraHappy:735068843407573043>
@@ -44,7 +42,6 @@ _ _
 <:pointer:832699900088811550> <@&632913651099107348> People who have contributed to my code in the past and are honoured forever.
 <:pointer:832699900088811550> <@&416548459655725056> Server staff and official peacekeepers.
 _ _
-<!-- <:pointer:832699900088811550> <@&409657867621367831> Our lovely partners, check out their servers! -->
 <:pointer:832699900088811550> <@&303680002245918724>/<@&999571865653739550>/<@&874727365375295569> Our donors! Skyra Project lives thanks to them! ❤️
 <:pointer:832699900088811550> <@&352412797176643585> Get notified when we make an announcement by using `s!roles Subscribers`!
 <:pointer:832699900088811550> <@&674072108216746056> The role assigned to people who use their Discord Nitro to boost this server, thank you :heart:.
