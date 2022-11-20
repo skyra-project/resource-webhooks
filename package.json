@@ -30,19 +30,19 @@
 		"@types/common-tags": "^1.8.1",
 		"@types/node": "^18.11.9",
 		"@types/ws": "^8.5.3",
-		"@typescript-eslint/eslint-plugin": "^5.42.1",
-		"@typescript-eslint/parser": "^5.42.1",
+		"@typescript-eslint/eslint-plugin": "^5.43.0",
+		"@typescript-eslint/parser": "^5.43.0",
 		"common-tags": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
-		"discord-api-types": "^0.37.17",
-		"eslint": "^8.27.0",
+		"discord-api-types": "^0.37.18",
+		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"husky": "^8.0.2",
 		"lint-staged": "^13.0.3",
 		"prettier": "^2.7.1",
 		"pretty-quick": "^3.1.3",
-		"typescript": "^4.8.4"
+		"typescript": "^4.9.3"
 	},
 	"resolutions": {
 		"ansi-regex": "^5.0.1",
@@ -65,5 +65,5 @@
 		}
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@3.2.4"
+	"packageManager": "yarn@3.3.0"
 }
