@@ -30,11 +30,11 @@
 		"@types/common-tags": "^1.8.1",
 		"@types/node": "^18.11.17",
 		"@types/ws": "^8.5.3",
-		"@typescript-eslint/eslint-plugin": "^5.46.1",
-		"@typescript-eslint/parser": "^5.46.1",
+		"@typescript-eslint/eslint-plugin": "^5.47.0",
+		"@typescript-eslint/parser": "^5.47.0",
 		"common-tags": "^1.8.2",
 		"cz-conventional-changelog": "^3.3.0",
-		"discord-api-types": "^0.37.23",
+		"discord-api-types": "^0.37.24",
 		"eslint": "^8.30.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
@@ -65,5 +65,5 @@
 		}
 	},
 	"prettier": "@sapphire/prettier-config",
-	"packageManager": "yarn@3.3.0"
+	"packageManager": "yarn@3.3.1"
 }
