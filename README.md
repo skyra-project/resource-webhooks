@@ -68,37 +68,17 @@ We accept donations through Patreon, BitCoin, Ethereum, and Litecoin. You can us
 |  Ethereum   | ![EthereumImage][] | [0xcB5EDB76Bc9E389514F905D9680589004C00190c][ethereum] |
 |  Litecoin   | ![LitecoinImage][] |     [MNVT1keYGMfGp7vWmcYjCS8ntU8LNvjnqM][litecoin]     |
 
-## Contributors ✨
+## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Please make sure to read the [Contributing Guide][contributing] before making a pull request.
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://favware.tech/"><img src="https://avatars.githubusercontent.com/u/4019718?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeroen Claassens</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=Favna" title="Code">💻</a> <a href="#content-Favna" title="Content">🖋</a> <a href="https://github.com/skyra-project/resource-webhooks/commits?author=Favna" title="Documentation">📖</a> <a href="#design-Favna" title="Design">🎨</a> <a href="#maintenance-Favna" title="Maintenance">🚧</a> <a href="#projectManagement-Favna" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/almostSouji"><img src="https://avatars.githubusercontent.com/u/26532370?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Souji</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=almostSouji" title="Code">💻</a></td>
-    <td align="center"><a href="https://ko-fi.com/crawltogo"><img src="https://avatars.githubusercontent.com/u/20760160?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Noel</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=iCrawl" title="Code">💻</a></td>
-    <td align="center"><a href="https://fyko.net/"><img src="https://avatars.githubusercontent.com/u/45381083?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carter</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=Fyko" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/papaia"><img src="https://avatars.githubusercontent.com/u/43409674?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Papaia</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=papaia" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/anandre"><img src="https://avatars.githubusercontent.com/u/38661761?v=4?s=100" width="100px;" alt=""/><br /><sub><b>anandre</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=anandre" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/NotSugden"><img src="https://avatars.githubusercontent.com/u/28943913?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sugden</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=NotSugden" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/monbrey"><img src="https://avatars.githubusercontent.com/u/5294381?v=4?s=100" width="100px;" alt=""/><br /><sub><b>monbrey</b></sub></a><br /><a href="https://github.com/skyra-project/resource-webhooks/commits?author=monbrey" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4?s=100" width="100px;" alt=""/><br /><sub><b>dependabot[bot]</b></sub></a><br /><a href="#maintenance-dependabot[bot]" title="Maintenance">🚧</a></td>
-  </tr>
-</table>
+Thank you to all the people who already contributed to Sapphire!
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+<a href="https://github.com/skyra-project/resource-webhooks/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=skyra-project/resource-webhooks" />
+</a>
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-[bitcoin]: bitcoin:3JNzCHMTFtxYFWBnVtDM9Tt34zFbKvdwco?amount=0.01&label=Skyra%20Discord%20Bot
+[contributing]: https://github.com/skyra-project/.github/blob/main/.github/CONTRIBUTING.md[bitcoin]: bitcoin:3JNzCHMTFtxYFWBnVtDM9Tt34zFbKvdwco?amount=0.01&label=Skyra%20Discord%20Bot
 [bitcoinimage]: https://cdn.skyra.pw/gh-assets/bitcoin.png
 [ethereum]: ethereum:0xcB5EDB76Bc9E389514F905D9680589004C00190c?amount=0.01&label=Skyra%20Discord%20Bot
 [ethereumimage]: https://cdn.skyra.pw/gh-assets/ethereum.png
