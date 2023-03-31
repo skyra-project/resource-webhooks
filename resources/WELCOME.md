@@ -45,7 +45,7 @@ _ _
 <:pointer:832699900088811550> <@&303680002245918724>/<@&999571865653739550>/<@&874727365375295569> Our donors! Skyra Project lives thanks to them! ❤️
 <:pointer:832699900088811550> <@&352412797176643585> Get notified when we make an announcement by claiming the role in <id:customize>!
 <:pointer:832699900088811550> <@&674072108216746056> The role assigned to people who use their Discord Nitro to boost this server, thank you :heart:.
-<:pointer:832699900088811550> <@&797039015014432769> People who help translate me to other language. Claim this role in <id:customize>.
+<:pointer:832699900088811550> <@&797039015014432769> People who help translate me to other language. Claim the role in <id:customize>.
 <:pointer:832699900088811550> <@&563629993574268928> People who can help you with questions with using me in your server(s).
 <:pointer:832699900088811550> <@&630236322140782604> People who have helped squash icky bugs in my code.
 
