@@ -13,7 +13,7 @@ __All of our source code is available under [`skyra-project`](https://github.com
 
 **INFORMATION**
 <:pointer:832699900088811550> <#409663610780909569> This channel!
-<:pointer:832699900088811550> <#283965220446273547> Announcements are posted here, you can follow it or use `s!roles Subscribers`!
+<:pointer:832699900088811550> <#283965220446273547> Announcements are posted here, you can follow it by getting the Subscribers role in <id:customize>!
 <:pointer:832699900088811550> <#838872584228569118> Our GitHub notifications, you can see all of the updates in this channel.
 _ _
 **GENERAL**
@@ -43,9 +43,9 @@ _ _
 <:pointer:832699900088811550> <@&416548459655725056> Server staff and official peacekeepers.
 _ _
 <:pointer:832699900088811550> <@&303680002245918724>/<@&999571865653739550>/<@&874727365375295569> Our donors! Skyra Project lives thanks to them! ❤️
-<:pointer:832699900088811550> <@&352412797176643585> Get notified when we make an announcement by using `s!roles Subscribers`!
+<:pointer:832699900088811550> <@&352412797176643585> Get notified when we make an announcement by claiming the role in <id:customize>!
 <:pointer:832699900088811550> <@&674072108216746056> The role assigned to people who use their Discord Nitro to boost this server, thank you :heart:.
-<:pointer:832699900088811550> <@&797039015014432769> People who help translate me to other language. Claim this role with `s!roles Translators`.
+<:pointer:832699900088811550> <@&797039015014432769> People who help translate me to other language. Claim the role in <id:customize>.
 <:pointer:832699900088811550> <@&563629993574268928> People who can help you with questions with using me in your server(s).
 <:pointer:832699900088811550> <@&630236322140782604> People who have helped squash icky bugs in my code.
 
@@ -56,14 +56,14 @@ _ _
 <:pointer:832699900088811550> <@&983371447709892718> our __fun__ bot, does games and memes.
 <:pointer:832699900088811550> <@&938699419979755611> our __Pokémon__ bot, your go-to for information from Pokémon!
 <:pointer:832699900088811550> <@&978242797066944567> our __feedback management__ bot, she powers <#257561807500214273>.
-<:pointer:832699900088811550> <@&983371776597848070> our __role playing game__ bot, he powers the Acryss Universe and brings it to Discord.
+<:pointer:832699900088811550> <@&983371776597848070> our __RTS game__ bot, he powers the Acryss Universe and brings it to Discord.
 <:pointer:832699900088811550> <@&969141470349099041> our __anime__ bot, they know a lot about manga and anime, and can also bring pictures for every mood.
 <:pointer:832699900088811550> <@&254361935535931393> our __moderation__ bot, she complements Discord's AutoMod system by providing a second layer of security.
 <:pointer:832699900088811550> <@&982645254094217280> our __tooling__ bot, he can do a lot of things at once.
 _ _
 **Private Bots:**
 <:pointer:832699900088811550> <@&512450043345764364> is a bot made for <:canvasconstructor:451438332375728128> [__Canvas Constructor__](https://canvasconstructor.js.org).
-<:pointer:832699900088811550> <@&444086611001606154> monitors her sisters for downtime, but she's feeling a bit down herself as of late.
+<:pointer:832699900088811550> <@&1072050322278723640> manages the bots' internal network, and will someday monitor their uptime.
 
 
 %PNG_RULES%
