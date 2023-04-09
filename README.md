@@ -1,3 +1,7 @@
+> **Warning**
+> 
+> **Archived because we moved to using https://webhooks.sapphirejs.dev instead**
+
 <div align="center">
 
 ![Skyra Logo](https://cdn.skyra.pw/gh-assets/skyra_avatar.png)
